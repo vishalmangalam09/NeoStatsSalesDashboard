@@ -3,7 +3,7 @@ import pandas as pd
 
 def app():
     st.subheader(":point_right: Sales Summary")
-    with st.expander("Summary_Table"):
+    with st.expander("Summary Table"):
         df = pd.read_csv("Sales_Prospect.csv")
         filtered_df = df
 

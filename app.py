@@ -15,7 +15,7 @@ def run():
         with st.sidebar:
             app = option_menu(
                 menu_title='Menu',
-                options=['dashboard','Add Record'],
+                options=['Dashboard','Add Record'],
                 icons=['person-circle'],
                 menu_icon='N',
                 default_index=0,
@@ -31,7 +31,7 @@ def run():
 
         if app == "Add Record":
             Add_data.app()
-        elif app == "dashboard":
+        elif app == "Dashboard":
             dashboardd.app()
 
 

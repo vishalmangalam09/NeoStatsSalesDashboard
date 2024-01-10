@@ -174,7 +174,7 @@ def app():
     # Assuming filtered_df is already defined
 
     st.subheader(":point_right: Sales Summary")
-    with st.expander("Summary Table"):
+    with st.expander("Summary_Table"):
         df_sample = df7
 
         # Display the DataFrame using st.dataframe with horizontal scrolling
